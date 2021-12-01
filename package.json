@@ -1,13 +1,16 @@
 {
-  "name": "1000",
-  "homepage": "https://github.com/ziqi1998/gift",
+  "name": "us",
   "version": "0.1.0",
   "private": true,
+  "homepage":".",
   "dependencies": {
-    "gh-pages": "^2.0.1",
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1",
-    "react-scripts": "2.1.1"
+    "animate.css": "^3.6.1",
+    "animateplus": "^2.0.1",
+    "antd": "^3.4.1",
+    "jquery": "^3.3.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
