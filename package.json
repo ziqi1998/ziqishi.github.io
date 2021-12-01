@@ -2,7 +2,7 @@
   "name": "us",
   "version": "0.1.0",
   "private": true,
-  "homepage":".",
+  "homepage":"https://github.com/ziqi1998/ziqishi.github.io",
   "dependencies": {
     "animate.css": "^3.6.1",
     "animateplus": "^2.0.1",
@@ -13,9 +13,11 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   }
 }
